@@ -17,6 +17,7 @@
         <module>Strategy</module>
         <module>Visitor</module>
         <module>State</module>
+        <module>FactoryPattern</module>
     </modules>
     <packaging>pom</packaging>
 </project>
