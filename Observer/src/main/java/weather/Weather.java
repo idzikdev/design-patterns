@@ -6,12 +6,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
-public class WeatherForecast implements Observable {
+public class Weather implements Observable {
     private int temperature;
     private int pressure;
     private Set<Observer> registeredObservers = new HashSet<>();
 
-    public WeatherForecast(int temperature, int pressure) {
+    public Weather(int temperature, int pressure) {
         this.temperature = temperature;
         this.pressure = pressure;
     }
