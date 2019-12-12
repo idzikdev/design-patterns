@@ -17,6 +17,10 @@
 .idea/**/contentModel.xml
 .idea/**
 
+## patterns
+
+/FactoryPattern/AbstractFactory/target/**
+
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -48,6 +52,8 @@ cmake-build-*/
 
 # File-based project format
 *.iws
+*.lst
+*.1st
 
 # IntelliJ
 out/
@@ -136,3 +142,6 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,gradle,intellij
+/FactoryPattern/AbstractFactory/target/maven-status/
+/FactoryPattern/AbstractFactory/target/maven-status/maven-compiler-plugin/
+/FactoryPattern/AbstractFactory/target/
