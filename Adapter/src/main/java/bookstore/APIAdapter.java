@@ -13,16 +13,16 @@ public class APIAdapter implements LibraryAPI {
 
     @Override
     public boolean isAvailable(String bookTitle) {
-        return libraryAPIv2.numberOfAvailableCopies(bookTitle)>0;
+        return libraryAPIv2.numberOfAvailableCopies(bookTitle) > 0;
     }
 
     @Override
     public LocalDate dueDate(String bookTitle, String pesel) {
-        return libraryAPIv2.dueDate(bookTitle,user.getName(),user.getSurname(),user.getDateOfBirth());
+        return libraryAPIv2.dueDate(bookTitle, user.getName(), user.getSurname(), user.getDateOfBirth());
     }
 
     @Override
     public boolean reserve(String bookTitle, String pesel) {
-        return libraryAPIv2.reserve(bookTitle,user.getName(),user.getSurname(),user.getDateOfBirth());
+        return libraryAPIv2.reserve(bookTitle, user.getName(), user.getSurname(), user.getDateOfBirth());
     }
 }

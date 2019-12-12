@@ -16,10 +16,10 @@ public class BookConnector {
     }
 
     public boolean reserve(String title, User user) {
-        return api.reserve(title,user.getPesel());
+        return api.reserve(title, user.getPesel());
     }
 
     public LocalDate whenToReturn(String title, User user) {
-        return api.dueDate(title,user.getPesel());
+        return api.dueDate(title, user.getPesel());
     }
- }
+}
