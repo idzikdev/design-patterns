@@ -14,6 +14,7 @@
         <module>Flyweight</module>
         <module>Decorator</module>
         <module>Memento</module>
+        <module>Strategy</module>
     </modules>
     <packaging>pom</packaging>
 </project>
