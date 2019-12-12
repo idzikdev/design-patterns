@@ -9,6 +9,7 @@
     <version>1.0</version>
     <modules>
         <module>Adapter</module>
+        <module>Observer</module>
     </modules>
 
     <packaging>pom</packaging>
