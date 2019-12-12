@@ -12,7 +12,6 @@ public class Main {
         weatherForecast.registerObserver(tvNews);
         //weather change
         weatherForecast.changeForecast(22, 996);
-        System.out.println("----------------------------------------");
         weatherForecast.changeForecast(23, 999);
     }
 }
