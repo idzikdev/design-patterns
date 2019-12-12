@@ -15,6 +15,7 @@
         <module>Decorator</module>
         <module>Memento</module>
         <module>Strategy</module>
+        <module>Visitor</module>
     </modules>
     <packaging>pom</packaging>
 </project>
