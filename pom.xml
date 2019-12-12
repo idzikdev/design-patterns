@@ -12,6 +12,7 @@
         <module>Observer</module>
         <module>Builder</module>
         <module>Flyweight</module>
+        <module>Decorator</module>
     </modules>
     <packaging>pom</packaging>
 </project>
