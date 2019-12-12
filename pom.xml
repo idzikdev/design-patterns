@@ -10,6 +10,7 @@
     <modules>
         <module>Adapter</module>
         <module>Observer</module>
+        <module>Builder</module>
     </modules>
 
     <packaging>pom</packaging>
