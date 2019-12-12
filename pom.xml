@@ -16,6 +16,7 @@
         <module>Memento</module>
         <module>Strategy</module>
         <module>Visitor</module>
+        <module>State</module>
     </modules>
     <packaging>pom</packaging>
 </project>
