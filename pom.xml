@@ -11,7 +11,7 @@
         <module>Adapter</module>
         <module>Observer</module>
         <module>Builder</module>
+        <module>Flyweight</module>
     </modules>
-
     <packaging>pom</packaging>
 </project>
