@@ -13,6 +13,7 @@
         <module>Builder</module>
         <module>Flyweight</module>
         <module>Decorator</module>
+        <module>Memento</module>
     </modules>
     <packaging>pom</packaging>
 </project>
