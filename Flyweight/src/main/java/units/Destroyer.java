@@ -12,4 +12,8 @@ public class Destroyer {
         this.y = y;
         this.hpLeft = stats.getHp();
     }
+
+    public UnitStats getStats() {
+        return stats;
+    }
 }
