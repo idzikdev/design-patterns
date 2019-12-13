@@ -18,6 +18,7 @@
         <module>Visitor</module>
         <module>State</module>
         <module>FactoryPattern</module>
+        <module>Singleton</module>
     </modules>
     <packaging>pom</packaging>
 </project>
