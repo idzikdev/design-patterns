@@ -5,12 +5,11 @@ public class Commander extends Officer {
     private static final String name = "Commander";
 
     @Override
-    public void processMessage(Message message) {
+    public String processMessage(Message message) {
         if (message.getRank().equals(Rank.COMMANDER)
                 && message.getCode() == code) {
-            System.out.println(name + " get message : " + message.getContent());
-        } else {
-            System.out.println("Do not who should take this order");
+            return (name + " get message : " + message.getContent());
         }
+        return "Do not who should take this order";
     }
 }

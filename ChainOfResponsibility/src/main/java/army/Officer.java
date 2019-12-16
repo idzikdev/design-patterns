@@ -3,7 +3,7 @@ package army;
 public abstract class Officer {
     private Officer superiorOfficer;
 
-    public abstract void processMessage(Message message);
+    public abstract String processMessage(Message message);
 
     public Officer getSuperiorOfficer() {
         return superiorOfficer;
