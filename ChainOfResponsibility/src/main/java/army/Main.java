@@ -8,6 +8,6 @@ public class Main {
         Officer commander = new Commander();
         rookie.setSuperiorOfficer(captain);
         captain.setSuperiorOfficer(commander);
-        rookie.processMessage(message);
+        System.out.println(rookie.processMessage(message));
     }
 }
