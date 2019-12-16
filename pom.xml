@@ -19,6 +19,7 @@
         <module>State</module>
         <module>FactoryPattern</module>
         <module>Singleton</module>
+        <module>ChainOfResponsibility</module>
     </modules>
     <packaging>pom</packaging>
 </project>
