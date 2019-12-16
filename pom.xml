@@ -20,6 +20,7 @@
         <module>FactoryPattern</module>
         <module>Singleton</module>
         <module>ChainOfResponsibility</module>
+        <module>TemplateMethod</module>
     </modules>
     <packaging>pom</packaging>
 </project>
