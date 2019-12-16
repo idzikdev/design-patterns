@@ -1,22 +1,24 @@
 package car;
 
 public abstract class AbstractCarSequence {
-    public final void startCar() {
-        fastenSeatbelts();
-        startEngine();
-        selectGear();
-        drive();
+    public final String[] startCar() {
+        String [] result=new String[4];
+        result[0]=fastenSeatbelts();
+        result[1]=startEngine();
+        result[2]=selectGear();
+        result[3]=drive();
+        return result;
     }
 
-    private void drive() {
-        System.out.println("Driving");
+    private String drive() {
+        return "Driving";
     }
 
-    private void fastenSeatbelts() {
-        System.out.println("Fasting seatbelts");
+    private String fastenSeatbelts() {
+        return "Fasting seatbelts";
     }
 
-    protected abstract void selectGear();
+    protected abstract String selectGear();
 
-    protected abstract void startEngine();
+    protected abstract String startEngine();
 }
