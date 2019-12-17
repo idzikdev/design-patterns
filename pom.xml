@@ -22,6 +22,7 @@
         <module>ChainOfResponsibility</module>
         <module>TemplateMethod</module>
         <module>Command</module>
+        <module>Facade</module>
     </modules>
     <packaging>pom</packaging>
 </project>
