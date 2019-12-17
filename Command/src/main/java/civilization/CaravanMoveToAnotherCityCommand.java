@@ -1,6 +1,6 @@
 package civilization;
 
-public class CaravanMoveToAnotherCityCommand implements Command {
+public class CaravanMoveToAnotherCityCommand extends BaseLogger implements Command {
     private Caravan caravan;
 
     public CaravanMoveToAnotherCityCommand(Caravan caravan) {
@@ -9,11 +9,11 @@ public class CaravanMoveToAnotherCityCommand implements Command {
 
     @Override
     public void execute() {
-        System.out.println("Moved do another city.");
+        logger.info("Moved do another city.");
     }
 
     @Override
     public void undo() {
-        System.out.println("Back to home city.");
+        logger.info("Back to home city.");
     }
 }

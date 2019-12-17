@@ -1,6 +1,6 @@
 package civilization;
 
-public class WorkerBuildMineCommand implements Command {
+public class WorkerBuildMineCommand extends BaseLogger implements Command {
     private Worker worker;
 
     public WorkerBuildMineCommand(Worker worker) {
@@ -9,11 +9,11 @@ public class WorkerBuildMineCommand implements Command {
 
     @Override
     public void execute() {
-        System.out.println("Mine builded.");
+        logger.info("Mine builded.");
     }
 
     @Override
     public void undo() {
-        System.out.println("Mine destroyed.");
+        logger.info("Mine destroyed.");
     }
 }

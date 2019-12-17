@@ -3,7 +3,7 @@ package civilization;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Units {
+public class Units extends BaseLogger{
     private List<Command> list = new ArrayList<>();
 
     public void addToList(Command command) {
@@ -12,7 +12,7 @@ public class Units {
 
     public void run(){
         if(list.isEmpty()){
-            System.out.println("Lista jest pusta");
+           logger.info ("Lista jest pusta");
         }
         for (Command command:list
              ) {
@@ -23,5 +23,9 @@ public class Units {
     public void undoLastCommand(){
         list.get(list.size()-1).undo();
         list.remove(list.size()-1);
+    }
+
+    public List<Command> getList() {
+        return list;
     }
 }
