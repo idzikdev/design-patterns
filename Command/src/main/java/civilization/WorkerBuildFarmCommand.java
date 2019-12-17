@@ -1,6 +1,6 @@
 package civilization;
 
-public class WorkerBuildFarmCommand implements Command {
+public class WorkerBuildFarmCommand extends BaseLogger implements Command {
     private Worker worker;
 
     public WorkerBuildFarmCommand(Worker worker) {
@@ -9,11 +9,11 @@ public class WorkerBuildFarmCommand implements Command {
 
     @Override
     public void execute() {
-        System.out.println("Farm builded.");
+        logger.info("Farm builded.");
     }
 
     @Override
     public void undo() {
-        System.out.println("Farm destroyed.");
+        logger.info("Farm destroyed.");
     }
 }

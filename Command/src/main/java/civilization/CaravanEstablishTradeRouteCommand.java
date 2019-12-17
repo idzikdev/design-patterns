@@ -1,6 +1,6 @@
 package civilization;
 
-public class CaravanEstablishTradeRouteCommand implements Command {
+public class CaravanEstablishTradeRouteCommand extends BaseLogger implements Command {
     Caravan caravan;
 
     public CaravanEstablishTradeRouteCommand(Caravan caravan) {
@@ -9,11 +9,11 @@ public class CaravanEstablishTradeRouteCommand implements Command {
 
     @Override
     public void execute() {
-        System.out.println("Trade route established.");
+        logger.info("Trade route established.");
     }
 
     @Override
     public void undo() {
-        System.out.println("Trade route deleted.");
+        logger.info("Trade route deleted.");
     }
 }
