@@ -9,7 +9,7 @@ public class AtmMachineFacade {
         this.bankSystem = new BankSystem();
     }
 
-    void withdrawMoney(int number) {
-        atmMachine.withdrawCash(number);
+    String withdrawMoney(int number) {
+        return atmMachine.withdrawCash(number);
     }
 }

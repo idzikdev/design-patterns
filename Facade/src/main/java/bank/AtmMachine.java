@@ -9,7 +9,7 @@ public class AtmMachine {
         System.out.println("Pin entered.");
     }
 
-    void withdrawCash(int number) {
-        System.out.println("Withdrawal success");
+    String withdrawCash(int number) {
+        return "Withdrawal success";
     }
 }
