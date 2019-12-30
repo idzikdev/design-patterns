@@ -25,6 +25,7 @@
         <module>Facade</module>
         <module>Prototype</module>
         <module>Composite</module>
+        <module>Bridge</module>
     </modules>
     <packaging>pom</packaging>
 </project>
