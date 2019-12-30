@@ -23,6 +23,7 @@
         <module>TemplateMethod</module>
         <module>Command</module>
         <module>Facade</module>
+        <module>Prototype</module>
     </modules>
     <packaging>pom</packaging>
 </project>
