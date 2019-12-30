@@ -26,6 +26,7 @@
         <module>Prototype</module>
         <module>Composite</module>
         <module>Bridge</module>
+        <module>Proxy</module>
     </modules>
     <packaging>pom</packaging>
 </project>
