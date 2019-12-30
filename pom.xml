@@ -24,6 +24,7 @@
         <module>Command</module>
         <module>Facade</module>
         <module>Prototype</module>
+        <module>Composite</module>
     </modules>
     <packaging>pom</packaging>
 </project>
