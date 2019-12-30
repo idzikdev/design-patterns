@@ -21,4 +21,8 @@ public class Composite implements Component {
     public void remove(Component leaf) {
         list.remove(leaf);
     }
+
+    public List<Component> getList() {
+        return list;
+    }
 }
