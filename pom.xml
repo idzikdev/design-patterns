@@ -27,6 +27,7 @@
         <module>Composite</module>
         <module>Bridge</module>
         <module>Proxy</module>
+        <module>Interpreter</module>
     </modules>
     <packaging>pom</packaging>
 </project>
