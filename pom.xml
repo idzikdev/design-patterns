@@ -29,6 +29,7 @@
         <module>Proxy</module>
         <module>Interpreter</module>
         <module>Iterator</module>
+        <module>Mediator</module>
     </modules>
     <packaging>pom</packaging>
 </project>
