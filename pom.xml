@@ -28,6 +28,7 @@
         <module>Bridge</module>
         <module>Proxy</module>
         <module>Interpreter</module>
+        <module>Iterator</module>
     </modules>
     <packaging>pom</packaging>
 </project>
