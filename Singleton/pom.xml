@@ -18,7 +18,7 @@
         <lombok.version>1.18.10</lombok.version>
         <junit4.version>4.12</junit4.version>
         <log4j.api.version>2.12.1</log4j.api.version>
-        <log4.core.version>2.12.1</log4.core.version>
+        <log4.core.version>2.15.0</log4.core.version>
         <apache.version>3.9</apache.version>
         <assertj.core.version>3.14.0</assertj.core.version>
     </properties>
